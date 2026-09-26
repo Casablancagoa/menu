@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bar — Casablanca Goa</title>
+  <meta name="theme-color" content="#242629">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap">
+  <link rel="stylesheet" href="../menu.css">
+  <script type="module" src="../menu.js"></script>
+</head>
+<body data-menu="bar">
+  <header>
+    <h1><a href="https://goacasablanca.com/">Casablanca Goa</a> <small>Bar</small></h1>
+    <div id="langs"></div>
+  </header>
+  <nav id="nav"></nav>
+  <main id="menu">
+    <noscript><p class="error">Please enable JavaScript, or ask your waiter for a paper menu. <a href="tel:+919822532882">+91 98225 32882</a></p></noscript>
+  </main>
+  <!-- Shown when every bar section is hidden in the sheet (dry days). -->
+  <template id="empty">
+    <div class="error">
+      <p>Alcohol is not served today.</p>
+      <p>Сегодня алкоголь не подаётся.</p>
+    </div>
+  </template>
+  <footer>
+    <p id="note"></p>
+    <p>Prices in ₹ · <a href="tel:+919822532882">+91 98225 32882</a></p>
+  </footer>
+</body>
+</html>
